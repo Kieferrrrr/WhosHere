@@ -1,0 +1,5 @@
+ip, mac, hostname
+
+"192.168.0.1", "AA:AA:AA:AA:AA:AA", "Tp-Link"
+"192.168.0.2", "BB:BB:BB:BB:BB:BB", "John's iPhone
+"192.168.0.3", "CC:CC:CC:CC:CC:CC", "Blink"

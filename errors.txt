@@ -1,0 +1,35 @@
+WhosHere Error Message Information
+----------------------------------
+
+"CTRL+C pressed"
+    You pressed CTRL and C at the same time lol
+
+"Cannot import WhosHere.py as a module"
+    WhosHere.py is intended to be used as a programme itself you canno import it
+
+"Operating system could not be defined"
+    Your operating system is likely not Windows or a common Linux distro you are
+    likely using something such as FreeBSD which wouldnt have been caught, this 
+    should not cause too much issue when running WhosHere but if it does it will
+    likely be SSID and interface resolving problems which are not fatal and can 
+    be fixed by defining a set interface in config.ini
+
+"Failed to find config.ini"
+    config.ini is expected to be in the same directory as the WhosHere.py file 
+    however it is not, move config.ini back to the script directory or re clone
+    from github
+
+"Failed to find or use value in config.ini"
+    A value in config.ini is unusable or missing, check the values you have set
+    in config.ini or revert the file back to the default from github
+
+"Unkown"
+    This error will show in the place of an SSID or hostname if it cannot be found,
+    as a hostname this will likely pose no issue and not be an issue however when it
+    appears for an SSID you will likely then face an interface issue fixable by 
+    specifying an interface in config.ini
+
+"Interface could not be used"
+    You have either chosen an interface in config.ini that could not be used or the 
+    default wireless interface could not be used, simplest fix is to choose another
+    interface in config.ini which is funtional
