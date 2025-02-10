@@ -174,7 +174,7 @@ class main:
             for device in self.devices:
                 line = device["IP"], device["Mac"], device["Hostname"]
                 writer.writerow(line)
-            print(f"\n {white}[{grey}Info]{white} Scan results saved to {blue}logs/{cDate}/{cTime}.csv{white}")
+            print(f"\n {white}[{grey}Info{white}] Scan results saved to {blue}logs/{cDate}/{cTime}.csv{white}")
 
     def main(self):
         print(banner)
